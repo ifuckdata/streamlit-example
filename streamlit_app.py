@@ -5,7 +5,7 @@ st.title("ChatGPT-like clone")
 
 client = OpenAI(
     api_key="AIzaSyD3fGRwHJ8vGbf3EJxUnweawIJXZv0wAGU",
-    base_url="https://fat-chicken-20.deno.dev/"
+    base_url="https://fat-chicken-20.deno.dev/v1/"
 )
 
 if "openai_model" not in st.session_state:
