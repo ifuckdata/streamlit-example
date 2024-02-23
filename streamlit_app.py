@@ -1,7 +1,7 @@
 from openai import OpenAI
 import streamlit as st
 
-st.title("ChatGPT-like clone")
+st.title("Insightify")
 
 client = OpenAI(
     api_key="AIzaSyD3fGRwHJ8vGbf3EJxUnweawIJXZv0wAGU",
